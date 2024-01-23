@@ -19,9 +19,10 @@ module.exports = {
     extend: {
       backgroundColor:{
        'home-secondary':'#D4C1AE',
-       'bg-primary-2':'#D4C1AE',
+       'primary-2':'#EAEAEC',
        'secondary': '#947E63',
-       'secondary-2':'#A38664'
+       'secondary-2':'#A38664',
+       'secondary-3':'#C4C4C6'
       },
       colors: {
         border: "hsl(var(--border))",

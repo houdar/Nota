@@ -27,9 +27,7 @@ const SideBar = () => {
         <Link to='/home/journal' className='pb-2'>
           <FontAwesomeIcon icon={faNewspaper} className='pr-4' />Journal
         </Link>
-        <Link to='/home/movie-list' className='pb-2'>
-          <FontAwesomeIcon icon={faFilm} className='pr-4' />Movie List
-        </Link>
+       
         <Link to='/home/affirmation' className='pb-2'>
           <FontAwesomeIcon icon={faLightbulb} className='pr-4' />Affirmations
         </Link>

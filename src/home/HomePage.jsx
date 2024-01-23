@@ -4,7 +4,7 @@ import SideBar from './sideBar';
 import Todo from './Todo';
 import Notes from './Notes';
 import Journal from './Journal';
-import MovieList from './MovieList';
+
 import Affirmation from './Affirmation';
 import Home from './Home';
 
@@ -19,7 +19,6 @@ const HomePage = () => {
           <Route path="/todo" element={<Todo />} />
           <Route path="/notes" element={<Notes />} />
           <Route path="/journal" element={<Journal />} />
-          <Route path="/movie-list" element={<MovieList />} />
           <Route path="/affirmation*" element={<Affirmation />} />
         </Routes>
       </div>

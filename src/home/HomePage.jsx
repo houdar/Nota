@@ -3,8 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import SideBar from './sideBar';
 import Todo from './Todo';
 import Notes from './Notes';
-import Journal from './Journal';
-
 import Affirmation from './Affirmation';
 import Home from './Home';
 
@@ -18,7 +16,6 @@ const HomePage = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/todo" element={<Todo />} />
           <Route path="/notes" element={<Notes />} />
-          <Route path="/journal" element={<Journal />} />
           <Route path="/affirmation*" element={<Affirmation />} />
         </Routes>
       </div>

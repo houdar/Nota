@@ -31,7 +31,7 @@ const Notes = () => {
         </button>
       </div>
 
-      <ul className='mt-4'>
+      <ul className='mt-4 w-96'>
         {notes.map((note) => (
           <li key={note.id} className='flex items-center justify-between p-2 mb-2 border rounded bg-secondary-3'>
             <span >{note.text}</span>
